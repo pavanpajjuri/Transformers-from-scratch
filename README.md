@@ -139,7 +139,7 @@ BLEU score indicates the model's translation quality:
 
 ## Acknowledgments
 - *Attention Is All You Need* (Vaswani et al., 2017)
-- Pytorch Transformers from Scratch (Attention is all you need) by [Aladdin Persson]([url](https://www.youtube.com/watch?v=U0s0f995w14))
+- Pytorch Transformers from Scratch (Attention is all you need) by [Aladdin Persson](https://www.youtube.com/watch?v=U0s0f995w14)
 - https://github.com/hyunwoongko/transformer
 - Transformers from scratch [Blog](https://peterbloem.nl/blog/transformers)
 
