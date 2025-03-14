@@ -1,7 +1,7 @@
 # Transformer Implementation from scratch
 
 ## Overview
-This project implements a Transformer-based neural machine translation model to translate English sentences into German. The architecture is written from sratch following 'Attention is all you need' [paper]([url](https://arxiv.org/abs/1706.03762)). The model is trained using the Multi30k dataset and employs PyTorch for deep learning computations. The training process is relatively slow due to limited computational resources, and the test outputs are not yet optimal.
+This project implements a Transformer-based neural machine translation model to translate English sentences into German. The architecture is written from sratch following 'Attention is all you need' [paper](https://arxiv.org/abs/1706.03762). The model is trained using the Multi30k dataset and employs PyTorch for deep learning computations. The training process is relatively slow due to limited computational resources, and the test outputs are not yet optimal.
 
 ## Project Structure
 The project is divided into multiple Python files, each serving a specific purpose. Below is a detailed explanation of each file and its role in the project:
@@ -125,7 +125,7 @@ python run.py
 ## Results
 Due to computational limitations, training progresses slowly, and translations are not yet fully accurate. Below is the loss plot over epochs:
 
-**(Insert loss plot here)**
+![loss_plot](images/loss_plot.jpeg)
 
 BLEU score indicates the model's translation quality:
 - **Input:** "A man is playing guitar."
