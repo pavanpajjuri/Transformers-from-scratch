@@ -4,7 +4,7 @@
 This project implements a Transformer-based neural machine translation model to translate English sentences into German. The architecture is written from sratch following 'Attention is all you need' [paper](https://arxiv.org/abs/1706.03762). The model is trained using the Multi30k dataset and employs PyTorch for deep learning computations. The training process is relatively slow due to limited computational resources, and the test outputs are not yet optimal.
 
 ## Project Structure
-The project is divided into multiple Python files, each serving a specific purpose. Below is a detailed explanation of each file and its role in the project:
+The project is divided into multiple Python files, each serving a specific purpose. Below is a detailed explanation of each file inside `my_transformer_code` and its role in the project:
 
 ### 1. `model.py`
 This file defines the Transformer model architecture, including the encoder and decoder components. The main components include:
@@ -82,6 +82,10 @@ This is the main script to execute training and evaluation. It performs:
 ```bash
 python run.py
 ```
+
+or 
+
+run job.ipynb file. This creates a training job with Spot Training Instance which saves compute costs and saves the file to s3 bucket
 
 ## Dependencies
 To run this project, ensure you have the following installed:
